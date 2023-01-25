@@ -1,0 +1,6 @@
+project: opa
+target: ast_fuzz
+testsuite: 
+- file://ast/testdata/fuzz
+cmds:
+- cmd: /out/ast_fuzz
